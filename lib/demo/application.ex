@@ -4,11 +4,7 @@ defmodule Demo.Application do
   use Application
 
   def start(_type, _args) do
-    children = [
-      Demo.Repo,
-      DemoWeb.Endpoint,
-      DemoWeb.Presence
-    ]
+    children = [DemoWeb.Endpoint, DemoWeb.Presence]
 
     opts = [strategy: :one_for_one, name: Demo.Supervisor]
     Supervisor.start_link(children, opts)

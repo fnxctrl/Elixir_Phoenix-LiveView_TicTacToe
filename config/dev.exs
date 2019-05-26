@@ -53,7 +53,7 @@ config :demo, DemoWeb.Endpoint,
       ~r{priv/gettext/.*(po)$},
       ~r{lib/demo_web/views/.*(ex)$},
       ~r{lib/demo_web/templates/.*(eex)$},
-      ~r{lib/demo_web/live/.*(ex)$},
+      ~r{lib/demo_web/live/.*(ex)$}
     ]
   ]
 
@@ -67,11 +67,3 @@ config :phoenix, :stacktrace_depth, 20
 
 # Initialize plugs at runtime for faster development compilation
 config :phoenix, :plug_init_mode, :runtime
-
-# Configure your database
-config :demo, Demo.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "demo_dev",
-  hostname: "localhost",
-  pool_size: 10
