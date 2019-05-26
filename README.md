@@ -1,13 +1,12 @@
 # TicTacToe
 
-Unwinnable single player TicTacToe game implemented with Elixir GenServer and Phoenix LiveView with minimax algorithm.
+Unwinnable single player TicTacToe game implemented using Phoenix LiveView with state managed by a GenServer and computer moves calculated with a minimax algorithm.
 
-* Elixir
-  * GenServer
 * Phoenix
   * LiveView
+* Elixir
+  * GenServer
 * minimax algorithm
-
 
 
 ## Setup
