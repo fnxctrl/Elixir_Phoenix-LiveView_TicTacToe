@@ -8,6 +8,15 @@ Unwinnable single player TicTacToe game implemented using Phoenix LiveView with 
   * GenServer
 * minimax algorithm
 
+Start game: 
+![Start game](images/start_game.png)
+----
+First round: 
+![First round](images/first_round.png)
+----
+Comp wins: 
+![Comp wins](images/comp_wins.png)
+----
 
 ## Setup
 
