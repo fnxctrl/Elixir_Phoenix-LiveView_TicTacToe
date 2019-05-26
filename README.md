@@ -21,7 +21,7 @@ git clone https://github.com/fnxctrl/Elixir_Phoenix-LiveView_TicTacToe.git \
 To start your Phoenix server:
 
 Install dependencies
-```
+```bash
 mix deps.get && cd assets && npm install && cd ..
 ```
 Start Phoenix endpoint with `mix phx.server`
