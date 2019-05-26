@@ -11,7 +11,7 @@ Unwinnable single player TicTacToe game implemented with Elixir GenServer and Ph
 ## Setup
 
 Clone this repo:
-`git clone https://github.com/fnxctrl/Elixir_Phoenix-LiveView_TicTacToe.git && cd __DIR__`
+`git clone https://github.com/fnxctrl/Elixir_Phoenix-LiveView_TicTacToe.git && cd Elixir_Phoenix-LiveView_TicTacToe`
 
 To start your Phoenix server:
 
